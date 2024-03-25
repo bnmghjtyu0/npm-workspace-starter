@@ -1,0 +1,19 @@
+{
+  "name": "shared-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/js/main.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

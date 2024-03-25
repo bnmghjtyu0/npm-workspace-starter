@@ -1,0 +1,17 @@
+{
+  "name": "npm-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "libs/shared-ui"
+  ],
+  "scripts": {
+    "dev:shared-ui": "npm run dev --workspace=shared-ui",
+    "dev:client": "npm run dev --workspace=client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
