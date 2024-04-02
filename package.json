@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "dev:shared-ui": "npm run dev --workspace=shared-ui",
-    "dev:client": "npm run dev --workspace=client"
+    "dev:client": "npm run dev --workspace=client",
+    "dev:react-client": "npm run dev --workspace=react-client"
   },
   "keywords": [],
   "author": "",
